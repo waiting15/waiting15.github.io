@@ -1,0 +1,22 @@
+---
+layout: page
+---
+
+<h1 class="list-title">文章列表</h1>
+
+<ul class="none-liststyle">
+	{% for post in site.categories.blog %}
+	<li style="margin-bottom: 25px;">
+		<div class="row" style="margin-bottom: 0;">
+			<div class="col-9">
+				<a style="font-size: 20px;font-weight: bold;" href="{{ post.url }}">{{ post.title }}</a>
+				<div style="font-size: 15px;color:#999;">{{ post.description }}</div>
+			</div>
+			<div class="col">
+				<p style="text-align: right;">{{ post.date|date:"%Y-%m-%d" }}</p>
+			</div>
+		</div>
+		
+	</li>
+	{% endfor %}
+</ul>
