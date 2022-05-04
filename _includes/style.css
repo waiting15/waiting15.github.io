@@ -16,6 +16,9 @@ a:hover{
 	text-decoration: underline;
 	color: black;
 }
+p{
+	line-height: 1.8;
+}
 
 .post-wrapper{
 	width: 900px;
