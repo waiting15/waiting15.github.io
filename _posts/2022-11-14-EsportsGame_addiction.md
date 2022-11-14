@@ -1,8 +1,8 @@
 ---
-title:电竞游戏致瘾分析
-description:促使你不断“再打一把”的行为分析及其后续影响
-layout:post
-category:blog
+title: 电竞游戏致瘾分析
+description: 促使你不断“再打一把”的行为分析及其后续影响
+layout: post
+category: blog
 ---
 
 ## 前言
